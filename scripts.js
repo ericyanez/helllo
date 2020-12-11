@@ -1,6 +1,6 @@
 qbody {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: #eb5f1e;
 }
 
 @media (min-width: 992px) {
