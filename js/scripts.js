@@ -39,12 +39,13 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
-    $(document).ready(function(){
-          $("#resume").fadeTo("slow", 0.6); // This sets the opacity of the thumbs to fade down to 60% when the page loads
-           $("#resume").hover(function(){             
-           $(this).fadeTo("slow", 1.0); // This should set the opacity to 100% on hover
-           },function(){
-               $(this).fadeTo("slow", 0.6); // This should set the opacity back to 60% on mouseout
-            });
-        });
+    $(document).ready(function(){        
+        $("#resume").fadeTo("slow", 0.6); // This sets the opacity of the thumbs to fade down to 60% when the page loads         
+        $("#resume").hover(function(){             
+            $(this).fadeTo("slow", 1.0); // This should set the opacity to 100% on hover         
+        },function(){             
+            $(this).fadeTo("slow", 0.6); // This should set the opacity back to 60% on mouseout         
+        });     
+    }); 
+
 })(jQuery); // End of use strict
